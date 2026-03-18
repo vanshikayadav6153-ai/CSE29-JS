@@ -1,0 +1,21 @@
+constx=document.getelEmentById("p1")
+cosole.log(result);
+result()
+
+x.innerHTML="<b>vanshika yadav </b>"
+result.title="my name ";
+document.getElementByClassName("p1").style.color="heading";
+result2.innerHTML="hii"
+
+const result3=document.getElementByTagName("p")
+result3[2].innerHTML="this is a pet "
+result3[1]style.color="blue"
+result3[1].inner Text="my paragraph"
+
+const test2=document.queryselecterAll(ul li");
+for(xin test2){
+    test2[x].style.backgroundcolor="green";
+    test2[x].style.margin ="10px";
+constx=document.getelEmentById("jk).getAttribute("class")
+document.getElementById ("d").innerHTML
+}
