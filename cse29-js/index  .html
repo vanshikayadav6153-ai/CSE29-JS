@@ -53,8 +53,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="myFunction()"><body>
-    <div id="result"></div> 
+<body>
+    <h2>create object from JSON Striing</h2>
+    <p id="demo"></p>
+    <script>
+        var text='{"employees":[{"firstName":"john","lastName":"smith"},{"firstName":"peeter","lastName":"jones"}]}';
+        obj=JSON.parse(text);
+        document.getElementById("demo").innerHTML=obj.employees[1].firstName+" "+obj.employees[1].lastName
+
+    </script>
+</body>
+    
     
 </body>
 </html>
